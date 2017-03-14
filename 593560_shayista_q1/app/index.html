@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body ng-app="photoGallery" ng-controller="galleryController">
+    <a href="#" class="titleLink"><h1 class="title">High Heels</h1></a>
+    
+    <p class="shoeHistory">High-heeled footwear (often abbreviated as high heels or simply heels) is footwear that raises the heel of the wearer's foot significantly higher than the toes. When both the heel and the toes are raised equal amounts, as in a platform shoe, it is technically not considered to be a high heel; however, there are also high-heeled platform shoes. High heels tend to give the aesthetic illusion of longer, more slender legs. High heels come in a wide variety of styles, and the heels are found in many different shapes, including stiletto, pump (court shoe), block, tapered, blade, and wedge.</p>
+    <p class="shoeHistory">
+        According to high-fashion shoe websites like Jimmy Choo and Gucci, a "low heel" is considered less than 2.5 inches (6.4 centimeters), while heels between 2.5 and 3.5 inches (6.4 and 8.9 cm) are considered "mid heels", and anything over that is considered a "high heel". The apparel industry would appear to take a simpler view: the term "high heels" covers heels ranging from 2 to 5 inches (5.1 to 12.7 cm) or more. Extremely high-heeled shoes, such as those exceeding 6 inches (15 cm), strictly speaking, are no longer considered apparel but rather something akin to "jewelry for the feet". They are worn for display or the enjoyment of the wearer.
+    </p>
+
+    <input type="text" ng-model=type class="search" placeholder=" &nbsp Search your desired footwear">
+    <ul class="gallerHolder">
+        <li ng-repeat="x in shoe |filter:type" class="gallary">
+            <p>{{x.name}}</p>
+            <a ng-href="{{x.myExternal}}" target="_blank" class="image"><img ng-src="{{x.link}}" alt="shoes" class="shoesHeels">
+            </a>
+            <p class="description">{{x.description}}</p>
+        </li>
+    </ul>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+    <script type="text/javascript" src="controller/app.js"></script>
+</body>
+
+</html>

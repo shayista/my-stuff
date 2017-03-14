@@ -1,0 +1,82 @@
+{
+	"shoes": [
+    {
+      "Name": "Shoes7",
+      "link": "assests/images/sniker_blue.jpg",
+      "description":"Sandal summer Picture from David Wu's fashion store ",
+      "myExternal":"https://www.aliexpress.com/item-img/Spring-2014-Women-Flats-Sneakers-Athletic-Espadrilles-Moccasins-Canvas-Shoes-Shoelace-Female-Shoes-Snickers/1723018996.html",
+      "gender":"female",
+      "type":"sneakers"
+    },
+    {
+      "Name": "Shoes2",
+      "link": "assests/images/shoes_brown.jpg",
+      "description":"Sandal summer Picture from David Wu's fashion store ",
+      "myExternal":"https://www.ajio.com/steve-madden-bowwtye-leather-stilettos/p/410054823002?gclid=CjwKEAiAwfzDBRCRmJe7z_7h8yQSJAC4corO2USAt68wkYRZbpuvW0Pj5vyDrr-lH0nGaZpY0n7PKBoCVoTw_wcB",
+      "gender":"female",
+      "type":"heels"
+    },
+    {
+      "Name": "Shoes3",
+      "link": "assests/images/shoes_gold.jpg",
+      "description":"Sandal summer Picture from David Wu's fashion store ",
+      "myExternal":"https://www.ajio.com/mft-couture-zip-back-strappy-stilettos/p/460023278005?gclid=CjwKEAiAwfzDBRCRmJe7z_7h8yQSJAC4corObgHnoDZlrxW90nBIqbukRK0P143SS-evsqKrd-ysvRoCSHbw_wcB",
+      "gender":"female",
+      "type":"heels"
+    },
+    {
+      "Name": "Shoes4",
+      "link": "assests/images/shoes_color.jpg",
+      "description":"Sandal summer Picture from David Wu's fashion store ",
+      "myExternal":"https://www.ajio.com/jove-printed-platform-stilettos/p/460037159001?gclid=CjwKEAiAwfzDBRCRmJe7z_7h8yQSJAC4corOfjgB7ryLTB1Zc1RlK9mPqKa5hyPiP4Cv3-mkUM58CBoC3Nzw_wcB",
+      "gender":"female",
+      "type":"heels"
+    },
+    {
+      "Name": "Shoes5",
+      "link": "assests/images/shoes_orange.jpg",
+      "description":"Sandal summer Picture from David Wu's fashion store ",
+      "myExternal":"https://www.ajio.com/ajio-floral-print-kitten-heeled-shoes/p/460018040_multi",
+      "gender":"female",
+      "type":"heels"
+    },
+    {
+      "Name": "Shoes6",
+      "link": "assests/images/shoes_red.jpg",
+      "description":"Sandal summer Picture from David Wu's fashion store ",
+      "myExternal":"https://www.ajio.com/ajio-gladiator-stilettos-with-fringes/p/460018025008?gclid=CjwKEAiAwfzDBRCRmJe7z_7h8yQSJAC4corO4Qg4e5kqHfWqadx5RWtISR4Y4VRstZ14ke9Fy4R3NhoCSpvw_wcB",
+      "gender":"female",
+      "type":"heels"
+    },
+    
+    {
+      "Name": "Shoes6",
+      "link": "assests/images/shoes_dia.jpg",
+      "description":"Sandal summer Picture from David Wu's fashion store ",
+      "myExternal":"https://www.ajio.com/ajio-pointy-toe-heels-with-bow-detail/p/460018050_black",
+      "gender":"female",
+      "type":"heels"
+    },
+    {
+      "Name": "Shoes8",
+      "link": "assests/images/sniker_green.jpg",
+      "description":"Sandal summer Picture from David Wu's fashion store ",
+      "myExternal":"http://www.aliexpress.com/item-img/Spring-2014-Women-Flats-Sneakers-Athletic-Espadrilles-Moccasins-Canvas-Shoes-Shoelace-Female-Shoes-Snickers/1723018996.html",
+      "gender":"female",
+      "type":"sneakers"
+    },
+    {
+      "Name": "Shoes9",
+      "link": "assests/images/sniker_pink.jpg",
+      "description":"Sandal summer Picture from David Wu's fashion store ",
+      "myExternal":"https://www.aliexpress.com/item-img/Women-S-Shoes-Fashion-Sneakers-Thicken-Velvet-Winter-Snicker-Female-Tenis-Shoes-Blue-Red-Size35-40/32268105935.html#",
+      "gender":"female",
+      "type":"sneakers"
+    }
+
+
+]
+
+
+  
+}

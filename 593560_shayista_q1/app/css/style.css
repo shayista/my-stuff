@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    padding: 0px;
+    margin: 0 auto;
+    width: 1000px;
+}
+.gallary {
+    float: left;
+    margin: 40px;
+    width: 200px;
+    padding:20px; 
+    border-right: 1px dotted #858585;
+}
+.gallary:hover {
+	background:#b7b7b7;
+}
+.gallerHolder {
+    width: 1000px;
+    list-style: none;
+    margin: 0 auto;
+}
+.shoeHistory {
+	margin: 20px;
+	color: #858585;
+	} 
+.title {
+    text-align: center;
+    color: #333;
+    background-color: #b7b7b7;
+}
+.readMore {
+    margin: 0 597px;
+}
+.shoesHeels {
+    min-height: 250px;
+    width: 200px;
+}
+.image {
+	text-decoration: none;
+}
+.search {
+	margin: 10px 370px;
+	border-radius: 7px;
+	width: 200px;
+	min-height: 30px;
+}
+.titleLink {
+	text-decoration: none;
+}
