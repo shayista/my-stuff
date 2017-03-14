@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>angular_js</title>
+	
+</head>
+<body ng-app = "employeeDetails">
+<div  ng-controller="emp_cont"> 
+	<span>{{2+3}}</span>
+	
+	Fname:<input type="text" name="fname" ng-model="firstname">
+	Lname:<input type="text" name="lname" ng-model="lastname">
+	Full Name: {{fullname() | lowercase}}
+
+	<p>{{lastname}}</p>
+</div>
+
+<div  ng-controller="array1">
+	<ul>
+		<li ng-repeat="x in names| filter:'k'"> {{x}} </li>
+
+	</ul>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
