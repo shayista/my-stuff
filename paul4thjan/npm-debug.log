@@ -1,0 +1,95 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\node.exe',
+1 verbose cli   'D:\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'babel-cli',
+1 verbose cli   'babel-preset-es2016',
+1 verbose cli   '--save',
+1 verbose cli   '-dev' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose install initial load of C:\Users\593560\Desktop\paul4thjan\package.json
+5 warn package.json paul4thjan@1.0.0 No repository field.
+6 warn package.json paul4thjan@1.0.0 No README data
+7 verbose readDependencies loading dependencies from C:\Users\593560\Desktop\paul4thjan\package.json
+8 silly cache add args [ 'babel-cli', null ]
+9 verbose cache add spec babel-cli
+10 silly cache add args [ 'babel-preset-es2016', null ]
+11 verbose cache add spec babel-preset-es2016
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'babel-cli',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'babel-cli',
+12 silly cache add   rawSpec: '',
+12 silly cache add   spec: 'latest',
+12 silly cache add   type: 'tag' }
+13 silly addNamed babel-cli@latest
+14 verbose addNamed "latest" is being treated as a dist-tag for babel-cli
+15 info addNameTag [ 'babel-cli', 'latest' ]
+16 silly mapToRegistry name babel-cli
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/babel-cli
+20 verbose addNameTag registry:https://registry.npmjs.org/babel-cli not in flight; fetching
+21 silly cache add parsed spec Result {
+21 silly cache add   raw: 'babel-preset-es2016',
+21 silly cache add   scope: null,
+21 silly cache add   name: 'babel-preset-es2016',
+21 silly cache add   rawSpec: '',
+21 silly cache add   spec: 'latest',
+21 silly cache add   type: 'tag' }
+22 silly addNamed babel-preset-es2016@latest
+23 verbose addNamed "latest" is being treated as a dist-tag for babel-preset-es2016
+24 info addNameTag [ 'babel-preset-es2016', 'latest' ]
+25 silly mapToRegistry name babel-preset-es2016
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-es2016
+29 verbose addNameTag registry:https://registry.npmjs.org/babel-preset-es2016 not in flight; fetching
+30 verbose request uri https://registry.npmjs.org/babel-cli
+31 verbose request no auth needed
+32 info attempt registry request try #1 at 10:26:33 AM
+33 verbose request id 4c81e60b4547f12d
+34 http request GET https://registry.npmjs.org/babel-cli
+35 verbose request uri https://registry.npmjs.org/babel-preset-es2016
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 10:26:33 AM
+38 http request GET https://registry.npmjs.org/babel-preset-es2016
+39 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 151.101.120.162:443
+40 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 151.101.120.162:443
+41 info attempt registry request try #2 at 10:26:44 AM
+42 http request GET https://registry.npmjs.org/babel-preset-es2016
+43 info attempt registry request try #2 at 10:26:44 AM
+44 http request GET https://registry.npmjs.org/babel-cli
+45 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 151.101.120.162:443
+46 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 151.101.120.162:443
+47 info attempt registry request try #3 at 10:27:45 AM
+48 http request GET https://registry.npmjs.org/babel-preset-es2016
+49 info attempt registry request try #3 at 10:27:45 AM
+50 http request GET https://registry.npmjs.org/babel-cli
+51 verbose stack Error: connect ECONNREFUSED 151.101.120.162:443
+51 verbose stack     at Object.exports._errnoException (util.js:870:11)
+51 verbose stack     at exports._exceptionWithHostPort (util.js:893:20)
+51 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1057:14)
+52 verbose cwd C:\Users\593560\Desktop\paul4thjan
+53 error Windows_NT 6.1.7601
+54 error argv "D:\\node.exe" "D:\\node_modules\\npm\\bin\\npm-cli.js" "install" "babel-cli" "babel-preset-es2016" "--save" "-dev"
+55 error node v4.4.0
+56 error npm  v2.14.20
+57 error code ECONNREFUSED
+58 error errno ECONNREFUSED
+59 error syscall connect
+60 error Error: connect ECONNREFUSED 151.101.120.162:443
+60 error     at Object.exports._errnoException (util.js:870:11)
+60 error     at exports._exceptionWithHostPort (util.js:893:20)
+60 error     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1057:14)
+60 error  { [Error: connect ECONNREFUSED 151.101.120.162:443]
+60 error   code: 'ECONNREFUSED',
+60 error   errno: 'ECONNREFUSED',
+60 error   syscall: 'connect',
+60 error   address: '151.101.120.162',
+60 error   port: 443,
+60 error   parent: 'paul4thjan' }
+61 error If you are behind a proxy, please make sure that the
+61 error 'proxy' config is set properly.  See: 'npm help config'
+62 verbose exit [ 1, true ]

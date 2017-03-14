@@ -1,0 +1,11 @@
+{
+  "name": "paul4thjan",
+  "version": "1.0.0",
+  "description": "es6 to es5 tanscompiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shayista",
+  "license": "ISC"
+}
